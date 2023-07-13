@@ -1,10 +1,9 @@
 <script setup>
 
-
 </script>
 
 <template>
-    
+
     <div id="profile">
         <div>
             <div class="d-flex justify-content-center align-self-center my-4 py-4">
@@ -12,10 +11,12 @@
             </div>
         </div>
         <div>
-            <div class="d-flex justify-content-center align-self-center pb-4"><label class="text-warning fs-5">Tony Schiller</label></div>
+            <div class="d-flex justify-content-center align-self-center pb-4"><label class="text-warning fs-5">Tony
+                Schiller</label></div>
         </div>
         <div>
-            <div class="d-flex justify-content-center align-self-center pb-4"><label class="text-warning text-uppercase text-decoration-underline fs-5">Fullstack Developer</label></div>
+            <div class="d-flex justify-content-center align-self-center pb-4"><label
+                    class="text-warning text-uppercase text-decoration-underline fs-5">Fullstack Developer</label></div>
         </div>
         <div class="d-flex flex-row justify-content-evenly my-2">
             <div>
@@ -38,10 +39,26 @@
         <div class="mx-4 my-5 bg-danger" style="height: 3px"></div>
     </div>
 
+    <div class="mx-5" id="about">
 
-    <div id="about">
+        <div class="d-flex flex-row justify-content-between align-self-center my-4" id="Age">
+            <div class="text-warning">Age:</div>
+            <div class="text-warning">32</div>
+        </div>
+
+        <div class="d-flex flex-row justify-content-between align-self-center my-4" id="country">
+            <div class="text-warning">Country:</div>
+            <div class="text-warning">Deutschland</div>
+        </div>
+
+        <div class="d-flex flex-row justify-content-between align-self-center my-4" id="location">
+            <div class="text-warning">Location:</div>
+            <div class="text-warning">Ilmenau</div>
+        </div>
 
     </div>
+
+    <div class="mx-4 my-5 bg-danger" style="height: 3px"></div>
 
     <div id="language">
 

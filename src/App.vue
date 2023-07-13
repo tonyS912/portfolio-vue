@@ -4,7 +4,7 @@ import ShortProfile from "@/components/shortProfile.vue";
 </script>
 
 <template>
-    <header class="bg-dark text-end">
+    <header class="background-dark text-end">
         <a class="btn">
             <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="yellow" class="bi bi-list"
                  viewBox="0 0 16 16">
@@ -16,7 +16,6 @@ import ShortProfile from "@/components/shortProfile.vue";
 
     <aside>
         <short-profile></short-profile>
-
 
     </aside>
 
