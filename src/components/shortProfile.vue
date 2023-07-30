@@ -1,5 +1,6 @@
 <script setup>
 
+
 </script>
 
 <template>
@@ -36,10 +37,10 @@
       </div>
     </div>
 
-    <div class="mx-4 my-5 bg-danger" style="height: 3px"></div>
+    <div class="mx-4 mx-lg-2 my-5 bg-danger" style="height: 3px"></div>
   </div>
 
-  <div class="mx-5" id="about">
+  <div class="mx-5 mx-lg-0" id="about">
 
     <div class="col-12 col-sm-10 d-flex flex-row justify-content-between align-self-center my-4 mx-auto" id="Age">
       <div class="text-warning">Age:</div>
@@ -58,10 +59,10 @@
 
   </div>
 
-  <!-- ! Horizontal Line  Language Teil-->
-  <div class="mx-4 my-5 bg-danger" style="height: 3px"></div>
+  <!-- ! Horizontal Line  Language Teil -->
+  <div class="mx-4 mx-lg-2 my-5 bg-danger" style="height: 3px"></div>
 
-  <div class="mx-5" id="language">
+  <div class="mx-5 mx-lg-0" id="language">
 
     <div class="col-12 col-sm-10 d-flex flex-column justify-content-between align-self-start my-4 mx-auto">
       <div class="text-warning text-decoration-underline fs-5">Language</div>
@@ -88,21 +89,21 @@
 
   </div>
 
-  <!-- ! Horizontal Line  Skills Teil-->
-  <div class="mx-4 my-5 bg-danger" style="height: 3px"></div>
+  <!-- ! Horizontal Line  Skills Teil -->
+  <div class="mx-4 mx-lg-2 my-5 bg-danger" style="height: 3px"></div>
 
-  <div class="mx-5" id="skills">
+  <div class="mx-5 mx-lg-0" id="skills">
     <div class="col-12 col-sm-10 d-flex flex-column justify-content-between align-self-start my-4 mx-auto">
 
       <div class="text-warning text-decoration-underline fs-5">Skills</div>
 
       <div class="d-flex flex-row justify-content-between align-self-start my-4 mb-2 text-warning col-12">
-        <span>HTML</span><span>Junior level</span></div>
+        <span>HTML</span><span>Mid level</span></div>
       <div class="progress border border-warning-subtle bg-secondary" role="progressbar"
            aria-label="Warning striped example" aria-valuenow="75"
            aria-valuemin="0" aria-valuemax="100">
         <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning rounded-pill"
-             style="width: 33%; margin: 2px;"></div>
+             style="width: 75%; margin: 2px;"></div>
       </div>
 
       <div class="d-flex flex-row justify-content-between align-self-start my-4 mb-2 text-warning col-12">
@@ -111,7 +112,7 @@
            aria-label="Warning striped example" aria-valuenow="75"
            aria-valuemin="0" aria-valuemax="100">
         <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning rounded-pill"
-             style="width: 33%; margin: 2px;"></div>
+             style="width: 50%; margin: 2px;"></div>
       </div>
 
       <div class="d-flex flex-row justify-content-between align-self-start my-4 mb-2 text-warning col-12">
@@ -133,54 +134,36 @@
              style="width: 33%; margin: 2px;"></div>
       </div>
 
-      <div class="d-flex flex-row justify-content-between align-self-start my-4 mb-2 text-warning col-12"><span>Diskussions Level</span><span>Master level</span>
-      </div>
-      <div class="progress border border-warning-subtle bg-secondary" role="progressbar"
-           aria-label="Warning striped example" aria-valuenow="75"
-           aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning rounded-pill"
-             style="width: 100%; margin: 2px;"></div>
-      </div>
-
-      <div class="d-flex flex-row justify-content-between align-self-start my-4 mb-2 text-warning col-12"><span>Joghurt im Rucksack</span><span>Master level</span>
-      </div>
-      <div class="progress border border-warning-subtle bg-secondary" role="progressbar"
-           aria-label="Warning striped example" aria-valuenow="75"
-           aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning rounded-pill"
-             style="width: 100%; margin: 2px;"></div>
-      </div>
-
     </div>
   </div>
 
-  <!-- ! Horizontal Line  Extra Skills Teil-->
-  <div class="mx-4 my-5 bg-danger" style="height: 3px"></div>
+  <!-- ! Horizontal Line  Extra Skills Teil -->
+  <div class="mx-4 mx-lg-2 my-5 bg-danger" style="height: 3px"></div>
 
-  <div class="mt-5 mx-5" id="extraSkills">
+  <div class="mt-5 mx-5 mx-lg-0" id="extraSkills">
     <div class="col-12 col-sm-10 d-flex flex-column justify-content-between align-self-start my-4 mx-auto">
 
       <div class="text-warning text-decoration-underline fs-5 mb-4">Extra Skills</div>
 
-      <div class="my-2">
-        <i class="bi bi-code-square text-warning fs-4"> <span class="fw-lighter ms-3">Bootstrap, Materialize</span></i>
+      <div class="my-2 d-flex">
+        <i class="bi bi-code-square text-warning fs-4"></i><span class="text-warning fs-5 fw-lighter ms-3">Bootstrap, Materialize</span>
       </div>
 
-      <div class="my-2">
-        <i class="bi bi-code-square text-warning fs-4"> <span class="fw-lighter ms-3">CSS, SCSS</span></i>
+      <div class="my-2 d-flex">
+        <i class="bi bi-code-square text-warning fs-4"></i><span class="text-warning fs-5 fw-lighter ms-3">CSS, SCSS</span>
       </div>
 
-      <div class="my-2">
-        <i class="bi bi-code-square text-warning fs-4"> <span class="fw-lighter ms-3">GIT Knowledge</span></i>
+      <div class="my-2 d-flex">
+        <i class="bi bi-code-square text-warning fs-4"></i><span class="text-warning fs-5 fw-lighter ms-3">GIT, Github, Gitlab</span>
       </div>
 
     </div>
   </div>
 
-  <!-- ! Horizontal Line  Projekte Teil-->
-  <div class="mx-4 my-5 bg-danger" style="height: 3px"></div>
+  <!-- ! Horizontal Line  Projekte Teil -->
+  <div class="mx-4 mx-lg-2 my-5 bg-danger d-lg-none" style="height: 3px"></div>
 
-  <div class="mt-5 mx-4 d-flex flex-column" id="Projects">
+  <div class="mt-5 mx-4 d-flex flex-column d-lg-none" id="Projects">
     <div class="col-12 col-sm-10 d-flex flex-column justify-content-between align-self-start my-4 mx-auto">
 
       <div class="text-warning text-decoration-underline ms-4 fs-5">Projects</div>
@@ -203,7 +186,7 @@
         </div>
 
         <!-- ? Buttons -->
-        <div class="col-12 col-md-8 mx-auto mx-5 d-flex justify-content-between flex-row-reverse">
+        <div class="col-12 mx-auto mx-5 d-flex justify-content-around flex-row-reverse" style="max-width: 552px;">
           <div class="btn btn-success col-3 rounded-circle d-flex justify-content-center align-items-center "
                style="width: 5.5rem; height: 5.5rem; position: relative; top: 2.75rem">
             <a href="#" class="d-flex justify-content-center align-self-center ms-1">
@@ -218,7 +201,7 @@
 
           <div class="btn btn-warning col-3 rounded-circle d-flex justify-content-center align-items-center"
                style="width: 5.5rem; height: 5.5rem; position: relative; top: 2.75rem">
-            <a href="#" class="d-flex justify-content-center align-self-center">
+            <a href="https://github.com/tonyS912/join" class="d-flex justify-content-center align-self-center">
               <img class="w-75 me-1 opacity-75" src="../assets/img/github-btn.png" alt="Github-btn icon">
             </a>
           </div>
@@ -244,7 +227,7 @@
         </div>
 
         <!-- ? Buttons -->
-        <div class="col-12 col-md-8 mx-auto mx-5 d-flex justify-content-between flex-row-reverse">
+        <div class="col-12 mx-auto mx-5 d-flex justify-content-around flex-row-reverse" style="max-width: 552px;">
           <div class="btn btn-success col-3 rounded-circle d-flex justify-content-center align-items-center "
                style="width: 5.5rem; height: 5.5rem; position: relative; top: 2.75rem">
             <a href="#" class="d-flex justify-content-center align-self-center ms-1">
@@ -285,7 +268,7 @@
         </div>
 
         <!-- ? Buttons -->
-        <div class="col-12 col-md-8 mx-auto mx-5 d-flex justify-content-between flex-row-reverse">
+        <div class="col-12 mx-auto mx-5 d-flex justify-content-around flex-row-reverse" style="max-width: 552px;">
           <div class="btn btn-success col-3 rounded-circle d-flex justify-content-center align-items-center "
                style="width: 5.5rem; height: 5.5rem; position: relative; top: 2.75rem">
             <a href="#" class="d-flex justify-content-center align-self-center ms-1">
@@ -326,7 +309,7 @@
         </div>
 
         <!-- ? Buttons -->
-        <div class="col-12 col-md-8 mx-auto mx-5 d-flex justify-content-between flex-row-reverse">
+        <div class="col-12 mx-auto mx-5 d-flex justify-content-around flex-row-reverse" style="max-width: 552px;">
           <div class="btn btn-success col-3 rounded-circle d-flex justify-content-center align-items-center "
                style="width: 5.5rem; height: 5.5rem; position: relative; top: 2.75rem">
             <a href="#" class="d-flex justify-content-center align-self-center ms-1">
