@@ -16,7 +16,9 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        '/src/assets/img/join.png'
+        'src/assets/img/join.png',
+        'src/assets/img/github-btn.png',
+        'src/assets/img/logo_tony.png',
       ]
     }
   }
