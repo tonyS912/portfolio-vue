@@ -15,7 +15,7 @@ export default defineConfig({
       ]
     }
   },
-  base: process.env.NODE_ENV === 'production' ? '/dist' : '/',
+  //base: process.env.NODE_ENV === 'production' ? '/dist' : '/',
   plugins: [
     vue(),
   ],
