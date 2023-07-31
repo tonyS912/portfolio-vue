@@ -11,8 +11,10 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
         <div class="d-flex flex-column">
           <h1 class="d-flex flex-column text-start justify-content-center text-warning">I am Tony Schiller
             <span class="font-monospace text-success text-uppercase">Fullstack</span> Developer</h1>
-          <a class="btn btn-success d-flex align-self-start align-items-center mt-5 fs-5"
-             href="mailto:info@tony-schiller.com">Contact me <i class="bi bi-arrow-right-short ms-2 fs-2"></i></a>
+          <a class="btn btn-lg btn-success d-flex align-self-start align-items-center mt-5 fs-5"
+             href="mailto:info@tony-schiller.com">Contact me <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right ps-2" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg></a>
         </div>
         <img class="col-lg-5 border border-warning rounded-circle" src="../assets/img/tony-profile.png"
              alt="profile image">

@@ -9,7 +9,7 @@
 
     <!-- ? Erstes Projekt -->
     <div class="d-flex justify-content-center flex-column border border-3 border-danger rounded-4 shadow-lg my-5">
-      <img class="col-12 col-md-8 d-flex mx-auto" src="src/assets/img/join.png" alt="Laptop with Join Screen">
+      <img class="col-12 col-md-8 d-flex mx-auto" src="../assets/img/join.png" alt="Laptop with Join Screen">
 
       <div class="justify-content-center d-flex">
         <span class="justify-content-center d-flex fs-1 text-decoration-underline fw-bold text-warning"
@@ -50,7 +50,7 @@
 
     <!-- ? Zweites Projekt-->
     <div class="d-flex justify-content-center flex-column border border-3 border-danger rounded-4 shadow-lg my-5">
-      <img class="col-12 col-md-8 d-flex mx-auto" src="src/assets/img/join.png" alt="Laptop with Join Screen">
+      <img class="col-12 col-md-8 d-flex mx-auto" src="../assets/img/join.png" alt="Laptop with Join Screen">
 
       <div class="justify-content-center d-flex">
         <span class="justify-content-center d-flex fs-1 text-decoration-underline fw-bold text-warning"
@@ -91,7 +91,7 @@
 
     <!-- ? Drittes Projekt -->
     <div class="d-flex justify-content-center flex-column border border-3 border-danger rounded-4 shadow-lg my-5">
-      <img class="col-12 col-md-8 d-flex mx-auto" src="src/assets/img/join.png" alt="Laptop with Join Screen">
+      <img class="col-12 col-md-8 d-flex mx-auto" src="../assets/img/join.png" alt="Laptop with Join Screen">
 
       <div class="justify-content-center d-flex">
         <span class="justify-content-center d-flex fs-1 text-decoration-underline fw-bold text-warning"
@@ -132,7 +132,7 @@
 
     <!-- ? Viertes Projekt-->
     <div class="d-flex justify-content-center flex-column border border-3 border-danger rounded-4 shadow-lg my-5">
-      <img class="col-12 col-md-8 d-flex mx-auto" src="src/assets/img/join.png" alt="Laptop with Join Screen">
+      <img class="col-12 col-md-8 d-flex mx-auto" src="../assets/img/join.png" alt="Laptop with Join Screen">
 
       <div class="justify-content-center d-flex">
         <span class="justify-content-center d-flex fs-1 text-decoration-underline fw-bold text-warning"
