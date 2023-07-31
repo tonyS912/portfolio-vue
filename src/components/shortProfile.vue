@@ -1,5 +1,5 @@
 <script setup>
-import ProfileOverview from "@/components/profileOverview.vue";
+import ProjectsOverview from "@/components/projectsOverview.vue";
 
 </script>
 
@@ -165,7 +165,7 @@ import ProfileOverview from "@/components/profileOverview.vue";
 
   <div class="mt-5 mx-4 d-flex flex-column d-lg-none" id="Projects">
     <div class="text-warning text-decoration-underline col-12 col-sm-10 mx-auto fs-5">Projects</div>
-    <ProfileOverview></ProfileOverview>
+    <ProjectsOverview></ProjectsOverview>
   </div>
 
 
