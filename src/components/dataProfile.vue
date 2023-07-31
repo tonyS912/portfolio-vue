@@ -1,10 +1,11 @@
 <script setup>
+import ProfileOverview from "@/components/profileOverview.vue";
 
 </script>
 
 <template>
   <div class="d-flex flex-column">
-    <div class="d-flex align-items-center my-2 flex-column border border-2 border-danger shadow rounded"
+    <div class="d-flex align-items-center my-4 flex-column border border-2 border-danger shadow rounded"
          style="height: fit-content;">
       <div class="col-lg-11 d-flex justify-content-between my-5" id="profileImage">
         <div class="d-flex flex-column">
@@ -29,7 +30,13 @@
         possible.
         The only limit is the one you build yourself.</p>
     </div>
+
+    <div>
+      <div class="text-warning fs-2 col-lg-11 mx-auto">Projects</div>
+      <ProfileOverview></ProfileOverview>
+    </div>
   </div>
+
 </template>
 
 <style scoped>
