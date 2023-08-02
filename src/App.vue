@@ -7,7 +7,7 @@ import MyPersonalFooter from "@/components/myPersonalFooter.vue";
 </script>
 
 <template>
-  <header class="background-dark text-end">
+  <header class="background-dark text-end position-sticky top-0" style="z-index: 100;">
       <navbar></navbar>
   </header>
   <div class="col-lg-12 d-flex flex-row justify-content-center mx-auto" style="max-width: 1440px">
