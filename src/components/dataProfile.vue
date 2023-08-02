@@ -4,7 +4,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
 </script>
 
 <template>
-  <div class="d-flex flex-column">
+  <div class="d-flex flex-column" id="home">
     <div class="d-flex align-items-center my-4 flex-column border border-2 border-danger shadow rounded"
          style="height: fit-content;">
       <div class="col-lg-11 d-flex justify-content-between my-5" id="profileImage">
@@ -34,7 +34,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
     </div>
 
     <div>
-      <div class="text-warning fs-2 col-lg-11 mx-auto">Projects</div>
+      <div class="text-warning fs-2 col-lg-11 mx-auto" id="projects">Projects</div>
       <ProjectsOverview></ProjectsOverview>
     </div>
   </div>
