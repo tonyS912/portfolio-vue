@@ -97,6 +97,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
 
       <div class="text-warning text-decoration-underline fs-5">Skills</div>
 
+      <!-- ? HTML Skill Tree -->
       <div class="d-flex flex-row justify-content-between align-self-start my-4 mb-2 text-warning col-12">
         <span>HTML</span><span>Mid level</span></div>
       <div class="progress border border-warning-subtle bg-secondary" role="progressbar"
@@ -106,6 +107,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
              style="width: 75%; margin: 2px;"></div>
       </div>
 
+      <!-- ? JavaScript Skill Tree -->
       <div class="d-flex flex-row justify-content-between align-self-start my-4 mb-2 text-warning col-12">
         <span>JavaScript</span><span>Junior level</span></div>
       <div class="progress border border-warning-subtle bg-secondary" role="progressbar"
@@ -115,6 +117,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
              style="width: 50%; margin: 2px;"></div>
       </div>
 
+      <!-- ? Vue Skill Tree -->
       <div class="d-flex flex-row justify-content-between align-self-start my-4 mb-2 text-warning col-12">
         <span>Vue</span><span>Junior level</span>
       </div>
@@ -125,8 +128,19 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
              style="width: 33%; margin: 2px;"></div>
       </div>
 
+      <!-- ? Python Skill Tree -->
       <div class="d-flex flex-row justify-content-between align-self-start my-4 mb-2 text-warning col-12">
         <span>Python</span><span>Junior level</span></div>
+      <div class="progress border border-warning-subtle bg-secondary" role="progressbar"
+           aria-label="Warning striped example" aria-valuenow="75"
+           aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning rounded-pill"
+             style="width: 33%; margin: 2px;"></div>
+      </div>
+
+      <!-- ? PHP Skill Tree -->
+      <div class="d-flex flex-row justify-content-between align-self-start my-4 mb-2 text-warning col-12">
+        <span>PHP</span><span>Junior level</span></div>
       <div class="progress border border-warning-subtle bg-secondary" role="progressbar"
            aria-label="Warning striped example" aria-valuenow="75"
            aria-valuemin="0" aria-valuemax="100">
