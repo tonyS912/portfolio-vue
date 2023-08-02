@@ -12,7 +12,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
       </div>
     </div>
     <div>
-      <div class="d-flex justify-content-center align-self-center pb-4"><label class="text-warning fs-5">Tony
+      <div class="d-flex justify-content-center align-self-center pb-4"><label class="text-warning fs-3">Tony
         Schiller</label></div>
     </div>
     <div>
@@ -42,7 +42,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
 
   <div class="mx-4 mx-lg-0" id="aboutMe">
 
-    <div class="col-12 col-sm-10 d-flex flex-row justify-content-between align-self-center my-4 mx-auto" id="Age">
+    <div class="col-12 col-sm-10 d-flex flex-row justify-content-between align-self-center mb-4 mx-auto" id="Age">
       <div class="text-warning">Age:</div>
       <div class="text-warning">32</div>
     </div>

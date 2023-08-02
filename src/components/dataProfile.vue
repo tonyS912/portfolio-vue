@@ -34,7 +34,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
     </div>
 
     <div>
-      <div class="text-warning fs-2 col-lg-11 mx-auto" id="projectsDesktop">Projects</div>
+      <div class="text-warning fs-2 col-lg-11 mx-auto" id="projectsDesktop"><h2 class="fs-1">Projects</h2></div>
       <ProjectsOverview></ProjectsOverview>
     </div>
   </div>
