@@ -9,7 +9,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
          style="height: fit-content;">
       <div class="col-lg-11 d-flex justify-content-between my-5" id="profileImage">
         <div class="d-flex flex-column">
-          <h1 class="d-flex flex-column text-start justify-content-center text-warning">I am Tony Schiller
+          <h1 class="d-flex flex-column text-start justify-content-center text-warning">Tony Schiller
             <span class="font-monospace text-success text-uppercase">Fullstack</span> Developer</h1>
           <a class="btn btn-lg btn-success d-flex align-self-start align-items-center mt-5 fs-5"
              href="mailto:info@tony-schiller.com">Contact me <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right ps-2" viewBox="0 0 16 16">
