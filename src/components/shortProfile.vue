@@ -5,7 +5,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
 
 <template>
 
-  <div class="d-flex justify-content-center flex-column" id="profile">
+  <div class="d-flex justify-content-center flex-column" id="home">
     <div class="d-flex justify-content-center">
       <div class="col-12 col-sm-10 mx-auto d-flex justify-content-center align-self-center my-4 py-4">
         <img class="w-50 rounded-circle bg-warning" src="../assets/img/tony-profile.png" alt="profile image">
@@ -40,7 +40,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
     <div class="mx-4 mx-lg-3 my-5 bg-danger" style="height: 3px"></div>
   </div>
 
-  <div class="mx-4 mx-lg-0" id="about">
+  <div class="mx-4 mx-lg-0" id="aboutMe">
 
     <div class="col-12 col-sm-10 d-flex flex-row justify-content-between align-self-center my-4 mx-auto" id="Age">
       <div class="text-warning">Age:</div>
@@ -72,7 +72,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
       <div class="progress border border-warning-subtle bg-secondary" role="progressbar"
            aria-label="Animated striped example" aria-valuenow="75"
            aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning rounded-pill"
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success rounded-pill"
              style="width: 98%; margin: 2px;"></div>
       </div>
 
@@ -81,7 +81,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
       <div class="progress border border-warning-subtle bg-secondary" role="progressbar"
            aria-label="Warning striped example" aria-valuenow="75"
            aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning rounded-pill"
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success rounded-pill"
              style="width: 62%; margin: 2px;"></div>
       </div>
 
@@ -92,7 +92,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
   <!-- ! Horizontal Line  Skills Teil -->
   <div class="mx-4 mx-lg-3 my-5 bg-danger" style="height: 3px"></div>
 
-  <div class="mx-4 mx-lg-0" id="skills">
+  <div class="mx-4 mx-lg-0">
     <div class="col-12 col-sm-10 d-flex flex-column justify-content-between align-self-start my-4 mx-auto">
 
       <div class="text-warning text-decoration-underline fs-5">Skills</div>
@@ -103,7 +103,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
       <div class="progress border border-warning-subtle bg-secondary" role="progressbar"
            aria-label="Warning striped example" aria-valuenow="75"
            aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning rounded-pill"
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success rounded-pill"
              style="width: 75%; margin: 2px;"></div>
       </div>
 
@@ -113,7 +113,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
       <div class="progress border border-warning-subtle bg-secondary" role="progressbar"
            aria-label="Warning striped example" aria-valuenow="75"
            aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning rounded-pill"
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success rounded-pill"
              style="width: 50%; margin: 2px;"></div>
       </div>
 
@@ -124,7 +124,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
       <div class="progress border border-warning-subtle bg-secondary" role="progressbar"
            aria-label="Warning striped example" aria-valuenow="75"
            aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning rounded-pill"
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success rounded-pill"
              style="width: 33%; margin: 2px;"></div>
       </div>
 
@@ -134,7 +134,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
       <div class="progress border border-warning-subtle bg-secondary" role="progressbar"
            aria-label="Warning striped example" aria-valuenow="75"
            aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning rounded-pill"
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success rounded-pill"
              style="width: 33%; margin: 2px;"></div>
       </div>
 
@@ -144,7 +144,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
       <div class="progress border border-warning-subtle bg-secondary" role="progressbar"
            aria-label="Warning striped example" aria-valuenow="75"
            aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning rounded-pill"
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success rounded-pill"
              style="width: 33%; margin: 2px;"></div>
       </div>
 
@@ -177,8 +177,8 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
   <!-- ! Horizontal Line  Projekte Teil -->
   <div class="mx-4 mx-lg-3 my-5 bg-danger d-lg-none" style="height: 3px"></div>
 
-  <div class="mt-5 mx-4 d-flex flex-column d-lg-none" id="Projects">
-    <div class="text-warning text-decoration-underline col-12 col-sm-10 mx-auto fs-5">Projects</div>
+  <div class="mt-5 mx-4 d-flex flex-column d-lg-none" >
+    <div class="text-warning text-decoration-underline col-12 col-sm-10 mx-auto fs-5" id="projectsMobile">Projects</div>
     <ProjectsOverview></ProjectsOverview>
   </div>
 

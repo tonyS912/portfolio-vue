@@ -4,7 +4,7 @@
 
 <template>
   <nav class="navbar navbar-expand-lg background-dark mx-2 mx-lg-auto" style="max-width: 1440px;">
-    <div class="container-fluid">
+    <div class="container-fluid d-flex">
       <a class="navbar-brand text-success fs-3 ps-2" href="#"><img src="../assets/img/logo_tony.png" height="78"
                                                                    width="78" alt="portfolio logo"></a>
       <button class="navbar-toggler text-success fs-1" type="button" data-bs-toggle="collapse"
@@ -27,7 +27,7 @@
             <a class="text-success fs-3 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#aboutMe" role="button">About Me</a>
           </li>
           <li class="nav-item mx-2 my-3 my-lg-0">
-            <a class="text-success fs-3 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#projects" role="button">Projects</a>
+            <a class="text-success fs-3 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#" role="button">Projects</a>
           </li>
         </ul>
       </div>
