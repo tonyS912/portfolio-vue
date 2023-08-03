@@ -73,7 +73,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
            aria-label="Animated striped example" aria-valuenow="75"
            aria-valuemin="0" aria-valuemax="100">
         <div class="progress-bar progress-bar-striped progress-bar-animated bg-success rounded-pill"
-             style="width: 98%; margin: 2px;"></div>
+             style="width: 98%; margin: 2px; transform: rotateY(180deg);"></div>
       </div>
 
       <div class="d-flex flex-row justify-content-between align-self-start my-4 mb-2 text-light col-12">
@@ -82,7 +82,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
            aria-label="Warning striped example" aria-valuenow="75"
            aria-valuemin="0" aria-valuemax="100">
         <div class="progress-bar progress-bar-striped progress-bar-animated bg-success rounded-pill"
-             style="width: 62%; margin: 2px;"></div>
+             style="width: 62%; margin: 2px; transform: rotateY(180deg);"></div>
       </div>
 
     </div>
@@ -104,7 +104,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
            aria-label="Warning striped example" aria-valuenow="75"
            aria-valuemin="0" aria-valuemax="100">
         <div class="progress-bar progress-bar-striped progress-bar-animated bg-success rounded-pill"
-             style="width: 75%; margin: 2px;"></div>
+             style="width: 75%; margin: 2px; transform: rotateY(180deg);"></div>
       </div>
 
       <!-- ? JavaScript Skill Tree -->
@@ -114,7 +114,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
            aria-label="Warning striped example" aria-valuenow="75"
            aria-valuemin="0" aria-valuemax="100">
         <div class="progress-bar progress-bar-striped progress-bar-animated bg-success rounded-pill"
-             style="width: 50%; margin: 2px;"></div>
+             style="width: 50%; margin: 2px; transform: rotateY(180deg);"></div>
       </div>
 
       <!-- ? Vue Skill Tree -->
@@ -125,7 +125,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
            aria-label="Warning striped example" aria-valuenow="75"
            aria-valuemin="0" aria-valuemax="100">
         <div class="progress-bar progress-bar-striped progress-bar-animated bg-success rounded-pill"
-             style="width: 33%; margin: 2px;"></div>
+             style="width: 33%; margin: 2px; transform: rotateY(180deg);"></div>
       </div>
 
       <!-- ? Python Skill Tree -->
@@ -135,7 +135,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
            aria-label="Warning striped example" aria-valuenow="75"
            aria-valuemin="0" aria-valuemax="100">
         <div class="progress-bar progress-bar-striped progress-bar-animated bg-success rounded-pill"
-             style="width: 33%; margin: 2px;"></div>
+             style="width: 33%; margin: 2px; transform: rotateY(180deg);"></div>
       </div>
 
       <!-- ? PHP Skill Tree -->
@@ -145,7 +145,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
            aria-label="Warning striped example" aria-valuenow="75"
            aria-valuemin="0" aria-valuemax="100">
         <div class="progress-bar progress-bar-striped progress-bar-animated bg-success rounded-pill"
-             style="width: 33%; margin: 2px;"></div>
+             style="width: 33%; margin: 2px; transform: rotateY(180deg);"></div>
       </div>
 
     </div>
