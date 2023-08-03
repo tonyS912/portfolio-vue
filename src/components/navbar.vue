@@ -1,4 +1,26 @@
 <script setup>
+import { ref, onMounted, onBeforeUnmount } from 'vue';
+
+const navbarTrigger = ref('');
+
+const toggleMobile = () => {
+  if (window.innerWidth < 992) {
+    navbarTrigger.value = "#responsiveMobile";
+  } else {
+    navbarTrigger.value = "#responsiveDesktop";
+  }
+};
+
+// Funktion aufrufen, wenn die Komponente gemountet wird
+onMounted(() => {
+  toggleMobile();
+  window.addEventListener('resize', toggleMobile);
+});
+
+// Event-Listener entfernen, wenn die Komponente unmounted wird
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', toggleMobile);
+});
 
 </script>
 
@@ -21,13 +43,16 @@
       <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end pe-lg-3" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item mx-3 my-3 my-lg-0">
-            <a class="text-success fs-3 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="#home" role="button">Home</a>
+            <a class="text-success fs-3 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+               aria-current="page" href="#home" role="button">Home</a>
           </li>
           <li class="nav-item mx-3 my-3 my-lg-0">
-            <a class="text-success fs-3 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#aboutMe" role="button">About Me</a>
+            <a class="text-success fs-3 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+               href="#aboutMe" role="button">About Me</a>
           </li>
           <li class="nav-item mx-3 my-3 my-lg-0">
-            <a class="text-success fs-3 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#" role="button">Projects</a>
+            <a class="text-success fs-3 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+               v-bind:href="navbarTrigger" role="button">Projects</a>
           </li>
         </ul>
       </div>

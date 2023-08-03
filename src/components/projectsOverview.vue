@@ -8,20 +8,20 @@
 
 
     <!-- ? Erstes Projekt -->
-    <div class="d-flex justify-content-center flex-column border border-3 border-danger rounded-4 shadow-lg my-5">
+    <div class="d-flex justify-content-center flex-column border border-1 border-warning rounded-4 shadow-lg my-5">
       <img class="col-12 col-md-8 d-flex mx-auto" src="../assets/img/join.png" alt="Laptop with Join Screen">
 
       <div class="justify-content-center d-flex">
         <span class="justify-content-center d-flex fs-1 text-decoration-underline fw-bold text-warning"
-              style="margin: -3rem">Join</span>
+              style="margin: -3.5rem">Join</span>
       </div>
 
       <div class="justify-content-center d-flex my-2">
         <span class="text-uppercase text-success justify-content-center flex-wrap fw-bold fs-5 text-center mx-3">Vue, Javascript, Html, css/scss, django</span>
       </div>
 
-      <div class="justify-content-center d-flex my-2">
-        <span class="text-uppercase text-white justify-content-center flex-wrap fw-light text-center mx-3">Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.</span>
+      <div class="d-flex my-2 mx-auto" style="max-width: 500px">
+        <span class="text-uppercase text-light justify-content-center flex-wrap fw-light text-center mx-3">Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.</span>
       </div>
 
       <!-- ? Buttons -->
@@ -49,20 +49,20 @@
     </div>
 
     <!-- ? Zweites Projekt-->
-    <div class="d-flex justify-content-center flex-column border border-3 border-danger rounded-4 shadow-lg my-5">
+    <div class="d-flex justify-content-center flex-column border border-1 border-warning rounded-4 shadow-lg my-5">
       <img class="col-12 col-md-8 d-flex mx-auto" src="../assets/img/join.png" alt="Laptop with Join Screen">
 
       <div class="justify-content-center d-flex">
         <span class="justify-content-center d-flex fs-1 text-decoration-underline fw-bold text-warning"
-              style="margin: -3rem">NIcht Join</span>
+              style="margin: -3.5rem">NIcht Join</span>
       </div>
 
       <div class="justify-content-center d-flex my-2">
         <span class="text-uppercase text-success justify-content-center flex-wrap fw-bold fs-5 text-center mx-3">Vue, Javascript, Html, css/scss, django</span>
       </div>
 
-      <div class="justify-content-center d-flex my-2">
-        <span class="text-uppercase text-white justify-content-center flex-wrap fw-light text-center mx-3">Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.</span>
+      <div class="mx-auto d-flex my-2" style="max-width: 500px">
+        <span class="text-uppercase text-light justify-content-center flex-wrap fw-light text-center mx-3">Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.</span>
       </div>
 
       <!-- ? Buttons -->
@@ -90,20 +90,20 @@
     </div>
 
     <!-- ? Drittes Projekt -->
-    <div class="d-flex justify-content-center flex-column border border-3 border-danger rounded-4 shadow-lg my-5">
+    <div class="d-flex justify-content-center flex-column border border-1 border-warning rounded-4 shadow-lg my-5">
       <img class="col-12 col-md-8 d-flex mx-auto" src="../assets/img/join.png" alt="Laptop with Join Screen">
 
       <div class="justify-content-center d-flex">
         <span class="justify-content-center d-flex fs-1 text-decoration-underline fw-bold text-warning"
-              style="margin: -3rem">Immer noch nicht Join</span>
+              style="margin: -3.5rem">Immer noch nicht Join</span>
       </div>
 
       <div class="justify-content-center d-flex my-2">
         <span class="text-uppercase text-success justify-content-center flex-wrap fw-bold fs-5 text-center mx-3">Vue, Javascript, Html, css/scss, django</span>
       </div>
 
-      <div class="justify-content-center d-flex my-2">
-        <span class="text-uppercase text-white justify-content-center flex-wrap fw-light text-center mx-3">Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.</span>
+      <div class="mx-auto d-flex my-2" style="max-width: 500px">
+        <span class="text-uppercase text-light justify-content-center flex-wrap fw-light text-center mx-3">Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.</span>
       </div>
 
       <!-- ? Buttons -->
@@ -131,20 +131,20 @@
     </div>
 
     <!-- ? Viertes Projekt-->
-    <div class="d-flex justify-content-center flex-column border border-3 border-danger rounded-4 shadow-lg my-5">
+    <div class="d-flex justify-content-center flex-column border border-1 border-warning rounded-4 shadow-lg my-5">
       <img class="col-12 col-md-8 d-flex mx-auto" src="../assets/img/join.png" alt="Laptop with Join Screen">
 
       <div class="justify-content-center d-flex">
         <span class="justify-content-center d-flex fs-1 text-decoration-underline fw-bold text-warning"
-              style="margin: -3rem">auch kein Join</span>
+              style="margin: -3.5rem">auch kein Join</span>
       </div>
 
       <div class="justify-content-center d-flex my-2">
         <span class="text-uppercase text-success justify-content-center flex-wrap fw-bold fs-5 text-center mx-3">Vue, Javascript, Html, css/scss, django</span>
       </div>
 
-      <div class="justify-content-center d-flex my-2">
-        <span class="text-uppercase text-white justify-content-center flex-wrap fw-light text-center mx-3">Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.</span>
+      <div class="mx-auto d-flex my-2" style="max-width: 500px">
+        <span class="text-uppercase text-light justify-content-center flex-wrap fw-light text-center mx-3">Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.</span>
       </div>
 
       <!-- ? Buttons -->
