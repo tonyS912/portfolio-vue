@@ -1,5 +1,6 @@
 <script setup>
-import { ref, onMounted, onBeforeUnmount } from 'vue';
+import {ref, onMounted, onBeforeUnmount} from 'vue';
+import { useI18n } from 'vue-i18n';
 
 const navbarTrigger = ref('');
 
@@ -22,6 +23,17 @@ onBeforeUnmount(() => {
   window.removeEventListener('resize', toggleMobile);
 });
 
+
+const currentLocale = ref('en'); // Standardmäßig die englische Sprache verwenden
+const { locale } = useI18n();
+
+function toggleLanguage() {
+  // Die aktuelle Sprache wechseln
+  currentLocale.value = currentLocale.value === 'en' ? 'de' : 'en';
+  // Die Sprache für die App und i18n ändern
+  locale.value = currentLocale.value;
+}
+
 </script>
 
 <template>
@@ -41,18 +53,23 @@ onBeforeUnmount(() => {
         </span>
       </button>
       <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end pe-lg-3" id="navbarNav">
+        <button @click="toggleLanguage" class="me-4 p-0 border-warning rounded rounded-circle">
+          <img v-if="currentLocale === 'en'" src="@/assets/img/united_kingdom.png"
+                                             alt="English" style="height: 56px; width: 56px"/>
+          <img v-else src="@/assets/img/germany.png" alt="Deutsch" style="height: 56px; width: 56px"/>
+        </button>
         <ul class="navbar-nav">
           <li class="nav-item mx-3 my-3 my-lg-0">
             <a class="text-success fs-3 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
-               aria-current="page" href="#home" role="button">Home</a>
+               aria-current="page" href="#home" role="button">{{ $t('Home') }}</a>
           </li>
           <li class="nav-item mx-3 my-3 my-lg-0">
             <a class="text-success fs-3 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
-               href="#aboutMe" role="button">About Me</a>
+               href="#aboutMe" role="button">{{ $t('AboutMe') }}</a>
           </li>
           <li class="nav-item mx-3 my-3 my-lg-0">
             <a class="text-success fs-3 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
-               v-bind:href="navbarTrigger" role="button">Projects</a>
+               v-bind:href="navbarTrigger" role="button">{{ $t('Projects') }}</a>
           </li>
         </ul>
       </div>

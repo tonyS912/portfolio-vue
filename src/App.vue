@@ -4,6 +4,7 @@ import DataProfile from "@/components/dataProfile.vue";
 import Navbar from "@/components/navbar.vue";
 import MyPersonalFooter from "@/components/myPersonalFooter.vue";
 
+
 </script>
 
 <template>

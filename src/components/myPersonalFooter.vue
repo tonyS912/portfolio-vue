@@ -6,7 +6,7 @@
   <div class="background-dark" style="height: 120px;">
     <div class="mx-auto d-flex flex-row-reverse justify-content-between" style="max-width: 1440px;">
       <a type="button" data-bs-toggle="modal" data-bs-target="#imprintModal" class="text-light"
-         style="margin-top: 40px; margin-right: 40px;">Legal/Privacy Notice</a>
+         style="margin-top: 40px; margin-right: 40px;">{{ $t('Imprint') }}</a>
       <a class="navbar-brand text-success my-3 fs-3 ps-2 ms-2" href="#"><img src="../assets/img/logo_tony.png"
                                                                              height="78"
                                                                              width="78" alt="portfolio logo"></a>
