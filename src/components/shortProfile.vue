@@ -37,38 +37,38 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
       </div>
     </div>
 
-    <div class="mx-4 mx-lg-3 my-5 bg-warning" style="height: 1px"></div>
+    <div class="mx-4 mx-lg-3 my-5 bg-warning" style="height: 2px"></div>
   </div>
 
   <div class="mx-4 mx-lg-0" id="aboutMe">
 
     <div class="col-12 col-sm-10 d-flex flex-row justify-content-between align-self-center mb-4 mx-auto" id="Age">
-      <div class="text-light">Age:</div>
+      <div class="text-light">{{ $t('Age') }}</div>
       <div class="text-light">32</div>
     </div>
 
     <div class="col-12 col-sm-10 d-flex flex-row justify-content-between align-self-center my-4 mx-auto" id="country">
-      <div class="text-light">Country:</div>
-      <div class="text-light">Deutschland</div>
+      <div class="text-light">{{ $t('Country') }}</div>
+      <div class="text-light">{{ $t('CountryInfo') }}</div>
     </div>
 
     <div class="col-12 col-sm-10 d-flex flex-row justify-content-between align-self-center my-4 mx-auto" id="location">
-      <div class="text-light">Location:</div>
-      <div class="text-light">Ilmenau</div>
+      <div class="text-light">{{ $t('City') }}</div>
+      <div class="text-light">{{ $t('CityInfo') }}</div>
     </div>
 
   </div>
 
   <!-- ! Horizontal Line  Language Teil -->
-  <div class="mx-4 mx-lg-3 my-5 bg-warning" style="height: 1px"></div>
+  <div class="mx-4 mx-lg-3 my-5 bg-warning" style="height: 2px"></div>
 
   <div class="mx-4 mx-lg-0" id="language">
 
     <div class="col-12 col-sm-10 d-flex flex-column justify-content-between align-self-start my-4 mx-auto">
-      <div class="text-warning text-decoration-underline fs-5">Language</div>
+      <div class="text-warning text-decoration-underline fs-5">{{ $t('Languages') }}</div>
 
       <div class="d-flex flex-row justify-content-between align-self-start my-4 mb-2 text-light col-12">
-        <span>German</span><span>native speaker</span></div>
+        <span>{{ $t('German') }}</span><span>{{ $t('GermanLevel') }}</span></div>
       <div class="progress border border-warning-subtle bg-secondary" role="progressbar"
            aria-label="Animated striped example" aria-valuenow="75"
            aria-valuemin="0" aria-valuemax="100">
@@ -77,7 +77,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
       </div>
 
       <div class="d-flex flex-row justify-content-between align-self-start my-4 mb-2 text-light col-12">
-        <span>English</span><span>Level: B2</span></div>
+        <span>{{ $t('English') }}</span><span>{{ $t('EnglishLevel') }}</span></div>
       <div class="progress border border-warning-subtle bg-secondary" role="progressbar"
            aria-label="Warning striped example" aria-valuenow="75"
            aria-valuemin="0" aria-valuemax="100">
@@ -90,21 +90,21 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
   </div>
 
   <!-- ! Horizontal Line  Skills Teil -->
-  <div class="mx-4 mx-lg-3 my-5 bg-warning" style="height: 1px"></div>
+  <div class="mx-4 mx-lg-3 my-5 bg-warning" style="height: 2px"></div>
 
   <div class="mx-4 mx-lg-0">
     <div class="col-12 col-sm-10 d-flex flex-column justify-content-between align-self-start my-4 mx-auto">
 
-      <div class="text-warning text-decoration-underline fs-5">Skills</div>
+      <div class="text-warning text-decoration-underline fs-5">{{ $t('Skills') }}</div>
 
       <!-- ? HTML Skill Tree -->
       <div class="d-flex flex-row justify-content-between align-self-start my-4 mb-2 text-light col-12">
-        <span>HTML</span><span>Mid level</span></div>
+        <span>HTML / CSS / SCSS</span><span>Mid level</span></div>
       <div class="progress border border-warning-subtle bg-secondary" role="progressbar"
            aria-label="Warning striped example" aria-valuenow="75"
            aria-valuemin="0" aria-valuemax="100">
         <div class="progress-bar progress-bar-striped progress-bar-animated bg-success rounded-pill"
-             style="width: 75%; margin: 2px; transform: rotateY(180deg);"></div>
+             style="width: 80%; margin: 2px; transform: rotateY(180deg);"></div>
       </div>
 
       <!-- ? JavaScript Skill Tree -->
@@ -152,19 +152,15 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
   </div>
 
   <!-- ! Horizontal Line  Extra Skills Teil -->
-  <div class="mx-4 mx-lg-3 my-5 bg-warning" style="height: 1px"></div>
+  <div class="mx-4 mx-lg-3 my-5 bg-warning" style="height: 2px"></div>
 
   <div class="mt-4 mx-4 mx-lg-0" id="extraSkills">
     <div class="col-12 col-sm-10 d-flex flex-column justify-content-between align-self-start my-4 mx-auto">
 
-      <div class="text-warning text-decoration-underline fs-5 mb-4">Extra Skills</div>
+      <div class="text-warning text-decoration-underline fs-5 mb-4">{{ $t('ExtraSkills') }}</div>
 
       <div class="my-2 d-flex">
         <i class="bi bi-code-square text-success fs-4"></i><span class="text-light fs-5 fw-lighter ms-3">Bootstrap, Materialize</span>
-      </div>
-
-      <div class="my-2 d-flex">
-        <i class="bi bi-code-square text-success fs-4"></i><span class="text-light fs-5 fw-lighter ms-3">CSS, SCSS</span>
       </div>
 
       <div class="my-2 d-flex">
@@ -175,10 +171,10 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
   </div>
 
   <!-- ! Horizontal Line  Projekte Teil -->
-  <div class="mx-4 mx-lg-3 my-5 bg-danger d-lg-none" style="height: 3px"></div>
+  <div class="mx-4 mx-lg-3 my-5 bg-warning d-lg-none" style="height: 2px"></div>
 
   <div class="mt-5 mx-4 d-flex flex-column d-lg-none" >
-    <div class="text-warning text-decoration-underline col-12 col-sm-10 mx-auto fs-5" id="responsiveMobile">Projects</div>
+    <div class="text-warning text-decoration-underline col-12 col-sm-10 mx-auto fs-5" id="responsiveMobile">{{ $t('Projects') }}</div>
     <ProjectsOverview></ProjectsOverview>
   </div>
 
