@@ -9,7 +9,10 @@
 
     <!-- ? Erstes Projekt ( Pokedex )-->
     <div class="d-flex justify-content-center flex-column border border-1 border-warning rounded-4 shadow-lg my-5">
-      <img class="col-12 col-md-8 d-flex mx-auto" src="../assets/img/join.png" alt="Laptop with Join Screen">
+      <video class="col-12 col-md-8 d-flex mx-auto" width="580" height="400" preload autoplay loop>
+        <source src="../assets/video/Pokedex-video.mp4" type="video/mp4">
+      </video>
+      <!-- <img " src="../assets/mov/Pokedex-video.mp4" alt="Laptop with Join Screen"> -->
 
       <div class="justify-content-center d-flex">
         <span class="justify-content-center d-flex fs-1 text-decoration-underline fw-bold text-warning"
@@ -28,7 +31,7 @@
       <div class="col-12 mx-auto mx-5 d-flex justify-content-around flex-row-reverse" style="max-width: 552px;">
         <div class="btn btn-success col-3 rounded-circle d-flex justify-content-center align-items-center "
              style="width: 5.5rem; height: 5.5rem; position: relative; top: 2.75rem">
-          <a href="#" class="d-flex justify-content-center align-self-center ms-1">
+          <a href="https://pokedex.tony-schiller.com" class="d-flex justify-content-center align-self-center ms-1" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
                  class="bi bi-play-fill text-dark"
                  viewBox="0 0 16 16">
@@ -69,7 +72,7 @@
       <div class="col-12 mx-auto mx-5 d-flex justify-content-around flex-row-reverse" style="max-width: 552px;">
         <div class="btn btn-success col-3 rounded-circle d-flex justify-content-center align-items-center "
              style="width: 5.5rem; height: 5.5rem; position: relative; top: 2.75rem">
-          <a href="#" class="d-flex justify-content-center align-self-center ms-1">
+          <a href="https://join.tony-schiller.com" class="d-flex justify-content-center align-self-center ms-1" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
                  class="bi bi-play-fill text-dark"
                  viewBox="0 0 16 16">
@@ -89,7 +92,7 @@
 
     </div>
 
-    <!-- ? Drittes Projekt ( Sharkie ) -->
+    <!-- ? Drittes Projekt ( Sharkie )
     <div class="d-flex justify-content-center flex-column border border-1 border-warning rounded-4 shadow-lg my-5">
       <img class="col-12 col-md-8 d-flex mx-auto" src="../assets/img/join.png" alt="Laptop with Join Screen">
 
@@ -106,11 +109,11 @@
         <span class="text-uppercase text-light justify-content-center flex-wrap fw-light text-center mx-3">{{ $t('ProjectsDescription-3') }}</span>
       </div>
 
-      <!-- ? Buttons -->
+      ? Buttons
       <div class="col-12 mx-auto mx-5 d-flex justify-content-around flex-row-reverse" style="max-width: 552px;">
         <div class="btn btn-success col-3 rounded-circle d-flex justify-content-center align-items-center "
              style="width: 5.5rem; height: 5.5rem; position: relative; top: 2.75rem">
-          <a href="#" class="d-flex justify-content-center align-self-center ms-1">
+          <a href="https://sharky.tony-schiller.com" class="d-flex justify-content-center align-self-center ms-1" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
                  class="bi bi-play-fill text-dark"
                  viewBox="0 0 16 16">
@@ -128,7 +131,7 @@
         </div>
       </div>
 
-    </div>
+    </div>-->
 
   </div>
 </template>

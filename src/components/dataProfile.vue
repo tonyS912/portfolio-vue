@@ -20,12 +20,9 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
             </svg>
           </a>
         </div>
-
         <img class="col-lg-5 border border-warning rounded-circle" src="../assets/img/tony-profile.png"
              alt="profile image">
-
       </div>
-
 
     </div>
     <div class="col-lg-11 d-flex flex-column align-self-center text-warning my-5" id="aboutMe">
@@ -38,7 +35,6 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
       <ProjectsOverview></ProjectsOverview>
     </div>
   </div>
-
 </template>
 
 <style scoped>
