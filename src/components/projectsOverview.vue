@@ -9,12 +9,11 @@
 
     <!-- ? Erstes Projekt ( Pokedex )-->
     <div class="d-flex justify-content-center flex-column border border-1 border-warning rounded-4 shadow-lg my-5">
-      <video class="col-12 col-md-8 d-flex mx-auto" width="580" height="400" preload autoplay loop>
+      <video class="col-12 col-md-8 d-flex mx-auto my-lg-5" width="580" height="400" preload autoplay loop muted>
         <source src="../assets/video/Pokedex-video.mp4" type="video/mp4">
       </video>
-      <!-- <img " src="../assets/mov/Pokedex-video.mp4" alt="Laptop with Join Screen"> -->
 
-      <div class="justify-content-center d-flex">
+      <div class="justify-content-center d-flex mt-lg-3">
         <span class="justify-content-center d-flex fs-1 text-decoration-underline fw-bold text-warning"
               style="margin: -3.5rem">{{ $t('ProjectsTitle-1') }}</span>
       </div>
@@ -53,9 +52,11 @@
 
     <!-- ? Zweites Projekt ( Join )-->
     <div class="d-flex justify-content-center flex-column border border-1 border-warning rounded-4 shadow-lg my-5">
-      <img class="col-12 col-md-8 d-flex mx-auto" src="../assets/img/join.png" alt="Laptop with Join Screen">
+      <video class="col-12 col-md-8 d-flex mx-auto my-lg-5" width="580" height="400" preload autoplay loop muted>
+        <source src="../assets/video/join.mp4" type="video/mp4">
+      </video>
 
-      <div class="justify-content-center d-flex">
+      <div class="justify-content-center d-flex mt-lg-3">
         <span class="justify-content-center d-flex fs-1 text-decoration-underline fw-bold text-warning"
               style="margin: -3.5rem">{{ $t('ProjectsTitle-2') }}</span>
       </div>
