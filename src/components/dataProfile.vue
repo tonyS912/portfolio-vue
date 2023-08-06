@@ -4,7 +4,7 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
 </script>
 
 <template>
-  <div class="d-flex flex-column" id="home">
+  <div class="d-flex flex-column" >
     <div class="d-flex align-items-center my-4 flex-column border border-1 border-warning shadow rounded"
          style="height: fit-content;">
       <div class="col-lg-11 d-flex justify-content-between my-5" id="profileImage">
