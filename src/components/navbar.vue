@@ -1,6 +1,6 @@
 <script setup>
 import {ref, onMounted, onBeforeUnmount} from 'vue';
-import { useI18n } from 'vue-i18n';
+import {useI18n} from 'vue-i18n';
 
 const navbarTrigger = ref('');
 
@@ -25,7 +25,7 @@ onBeforeUnmount(() => {
 
 
 const currentLocale = ref('en'); // Standardmäßig die englische Sprache verwenden
-const { locale } = useI18n();
+const {locale} = useI18n();
 
 function toggleLanguage() {
   // Die aktuelle Sprache wechseln
@@ -53,9 +53,9 @@ function toggleLanguage() {
         </span>
       </button>
       <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end pe-lg-3" id="navbarNav">
-        <button @click="toggleLanguage" class="me-4 p-0 border-warning rounded rounded-circle">
+        <button @click="toggleLanguage" class="me-3 me-lg-4 p-0 border-warning rounded rounded-circle">
           <img v-if="currentLocale === 'en'" src="@/assets/img/united_kingdom.png"
-                                             alt="English" style="height: 56px; width: 56px"/>
+               alt="English" style="height: 56px; width: 56px"/>
           <img v-else src="@/assets/img/germany.png" alt="Deutsch" style="height: 56px; width: 56px"/>
         </button>
         <ul class="navbar-nav">

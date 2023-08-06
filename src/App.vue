@@ -11,7 +11,7 @@ import MyPersonalFooter from "@/components/myPersonalFooter.vue";
   <header class="background-dark text-end position-sticky top-0" style="z-index: 100;">
       <navbar></navbar>
   </header>
-  <div class="col-lg-12 d-flex flex-row justify-content-center mx-auto" style="max-width: 1440px">
+  <div class="col-lg-12 d-flex flex-row justify-content-center mx-auto"  style="max-width: 1440px">
     <aside class="col-lg-3 m-3 m-lg-4 border border-1 border-warning shadow rounded" style="height: fit-content;">
       <short-profile></short-profile>
     </aside>
