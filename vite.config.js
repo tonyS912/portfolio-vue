@@ -11,8 +11,7 @@ export default defineConfig({
         '/src/assets/img/join.png',
         '/src/assets/img/github-btn.png',
         '/src/assets/img/logo_tony.png',
-        '/src/assets/img/tony-profile.png',
-        '/src/assets/video/Pokedex-video.mp4',
+        '/src/assets/img/tony-profile.png'
       ]
     }
   },
