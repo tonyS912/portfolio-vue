@@ -17,7 +17,8 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
     </div>
     <div>
       <div class="d-flex justify-content-center align-self-center pb-4"><label
-          class="text-light text-uppercase fs-5"><span class="font-monospace text-success">Fullstack</span> Developer</label></div>
+          class="text-light text-uppercase fs-5"><span class="font-monospace text-success">Fullstack</span>
+        Developer</label></div>
     </div>
     <div class="d-flex flex-row justify-content-evenly my-2">
       <div>
@@ -25,16 +26,26 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
           <img style="height: 42px;" src="../assets/img/Linkedin.svg" alt="LinkedIn Image">
         </a>
       </div>
-      <div>
+      <!-- <div>
         <a href="https://www.youtube.com/" target="_blank">
           <img style="height: 42px;" src="../assets/img/Youtube.svg" alt="Youtube Image">
         </a>
-      </div>
+      </div> -->
       <div>
         <a href="https://github.com/tonyS912" target="_blank">
           <img style="height: 42px;" src="../assets/img/Github.svg" alt="Github Image">
         </a>
       </div>
+    </div>
+    <div class="d-flex justify-content-center col-10 d-lg-none mx-auto">
+      <a class="btn btn-lg btn-success d-flex align-self-start align-items-center mt-5 fs-5"
+         href="mailto:info@tony-schiller.com">{{ $t('Contact') }}
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+             class="bi bi-arrow-right ps-2" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+        </svg>
+      </a>
     </div>
 
     <div class="mx-4 mx-lg-3 my-5 bg-warning" style="height: 2px"></div>
@@ -173,8 +184,10 @@ import ProjectsOverview from "@/components/projectsOverview.vue";
   <!-- ! Horizontal Line  Projekte Teil -->
   <div class="mx-4 mx-lg-3 my-5 bg-warning d-lg-none" style="height: 2px"></div>
 
-  <div class="mt-5 mx-4 d-flex flex-column d-lg-none" >
-    <div class="text-warning text-decoration-underline col-12 col-sm-10 mx-auto fs-5" id="responsiveMobile">{{ $t('Projects') }}</div>
+  <div class="mt-5 mx-4 d-flex flex-column d-lg-none">
+    <div class="text-warning text-decoration-underline col-12 col-sm-10 mx-auto fs-5" id="responsiveMobile">
+      {{ $t('Projects') }}
+    </div>
     <ProjectsOverview></ProjectsOverview>
   </div>
 
