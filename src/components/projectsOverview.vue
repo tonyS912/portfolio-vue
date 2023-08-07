@@ -9,7 +9,7 @@
 
     <!-- ? Erstes Projekt ( Pokedex )-->
     <div class="d-flex justify-content-center flex-column border border-1 border-warning rounded-4 shadow-lg my-5">
-      <video class="col-12 col-md-8 d-flex mx-auto my-lg-5" width="580" height="400" preload autoplay loop muted>
+      <video class="col-12 col-md-8 d-flex mx-auto my-lg-5" height="270" preload autoplay loop muted>
         <source src="../assets/video/Pokedex-video.mp4" type="video/mp4">
       </video>
 
@@ -52,7 +52,7 @@
 
     <!-- ? Zweites Projekt ( Join )-->
     <div class="d-flex justify-content-center flex-column border border-1 border-warning rounded-4 shadow-lg my-5">
-      <video class="col-12 col-md-8 d-flex mx-auto my-lg-5" width="580" height="400" preload autoplay loop muted>
+      <video class="col-12 col-md-6 d-flex mx-auto my-lg-5" height="320" preload autoplay loop muted>
         <source src="../assets/video/join.mp4" type="video/mp4">
       </video>
 
