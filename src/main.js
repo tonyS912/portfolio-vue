@@ -1,12 +1,10 @@
+import './assets/main.scss';
+
 import { createApp } from 'vue'
 import { createI18n } from 'vue-i18n'
 import App from './App.vue'
 
-// Bootstrap Style
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
-
-// Bootstrap JS
+// Bootstrap
 import 'bootstrap/dist/js/bootstrap.bundle.js'
 
 // Bootstrap Icons

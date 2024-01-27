@@ -30,3 +30,4 @@ coverage
 test-results/
 playwright-report/
 !/.vscode/
+portfolio-vue.code-workspace

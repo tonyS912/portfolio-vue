@@ -16,7 +16,7 @@
   "English": "Englisch",
   "EnglishLevel": "B2",
   "Skills": "Fähigkeiten",
-  "ExtraSkills": "Extra Fähigkeiten",
+  "ExtraSkills": "Zusätzliche Fertigkeiten",
   "ProjectsTitle-1": "Pokedex",
   "ProjectsLanguages-1": "HTML, CSS, JavaScript, PokeAPI",
   "ProjectsDescription-1": "Ein Pokedex mit allen Pokemon der ersten Generation. Die Daten werden von einer API geladen und in einer Tabelle angezeigt. Die Tabelle kann nach den verschiedenen Spalten sortiert werden. Die Tabelle kann auch nach dem Namen des Pokemon gefiltert werden.",

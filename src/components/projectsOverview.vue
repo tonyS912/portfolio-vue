@@ -23,7 +23,7 @@
       </div>
 
       <div class="d-flex my-2 mx-auto" style="max-width: 500px">
-        <span class="text-uppercase text-light justify-content-center flex-wrap fw-light text-center mx-3">{{ $t('ProjectsDescription-1') }}</span>
+        <span class=" text-light justify-content-center flex-wrap fs-6 fw-light text-center mx-3">{{ $t('ProjectsDescription-1') }}</span>
       </div>
 
       <!-- ? Buttons -->
@@ -66,7 +66,7 @@
       </div>
 
       <div class="mx-auto d-flex my-2" style="max-width: 500px">
-        <span class="text-uppercase text-light justify-content-center flex-wrap fw-light text-center mx-3">{{ $t('ProjectsDescription-2') }}</span>
+        <span class="text-light justify-content-center flex-wrap fs-6 fw-light text-center mx-3">{{ $t('ProjectsDescription-2') }}</span>
       </div>
 
       <!-- ? Buttons -->
