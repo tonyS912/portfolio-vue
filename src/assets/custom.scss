@@ -1,0 +1,15 @@
+//Change Boostrap variables
+$my-secondary: #6C757D;
+$my-success: #17A398;
+$my-warning: #FFF689;
+$my-light: #fefabb;
+$my-dark: #272727;
+
+// Path: src/assets/style/custom.scss
+$theme-colors: (
+    "secondary":    $my-secondary,
+    "success":      $my-success,
+    "warning":      $my-warning,
+    "light":        $my-light,
+    "dark":         $my-dark,
+);
