@@ -1,9 +1,23 @@
 <script setup>
 import ProjectsOverview from "@/components/projectsOverview.vue";
 
-const date = new Date();
-const birth = new Date(1991, 2, 2);
-const age = date.getFullYear() - birth.getFullYear();
+const currentDate = new Date();
+const birthDate = new Date('Februar 2, 1991 03:00:00');
+let age = currentDate.getFullYear() - birthDate.getFullYear();
+
+const currentMonth = currentDate.getMonth();
+const birthMonth = birthDate.getMonth();
+
+if (currentMonth < birthMonth) {
+    age--;
+} else if (currentMonth === birthMonth) {
+    const currentDay = currentDate.getDate();
+    const birthDay = birthDate.getDate();
+
+    if (currentDay < birthDay) {
+        age--;
+    }
+}
 </script>
 
 <template>
